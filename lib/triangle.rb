@@ -4,6 +4,7 @@ class Triangle
     @len2 = len2 
     @len3 = len3 
   end 
+  def allowed
   def kind 
   end 
 end
