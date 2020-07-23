@@ -14,7 +14,11 @@ class Triangle
     else 
       if @len1==@len2 && @len2 == @len3 
         return :equilateral 
-      elsif (@len1 == @len2
+      elsif @len1 != @len2 && @len1 != @len3 && @len2 != @len3 
+        return :scalene 
+      else 
+        return :isoceles
+      end 
     end 
   
   end 
