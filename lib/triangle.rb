@@ -8,5 +8,6 @@ class Triangle
   
   def kind 
     if @len1 && @len2 && @len3 
+    end 
   end 
 end
