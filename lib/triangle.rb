@@ -11,6 +11,8 @@ class Triangle
       raise TriangleError
     elsif @len1 + @len2 <= @len3 || @len2 + @len3 <= @len1 || @len1 + @len3 <= @len2 
       raise TriangleError
+    else 
+      if 
     end 
   
   end 
