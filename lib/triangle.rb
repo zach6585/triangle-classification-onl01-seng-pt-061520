@@ -17,7 +17,7 @@ class Triangle
       elsif @len1 != @len2 && @len1 != @len3 && @len2 != @len3 
         return :scalene 
       else 
-        return :isoceles
+        return :isosceles
       end 
     end 
   
