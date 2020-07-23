@@ -1,10 +1,12 @@
 class Triangle
+  attr_accessor :len1, :len
   def initialize(len1, len2, len3)
     @len1 = len1 
     @len2 = len2 
     @len3 = len3 
   end 
-  def allowed
+  
   def kind 
+    if @len1 && @len2 && @len3 
   end 
 end
