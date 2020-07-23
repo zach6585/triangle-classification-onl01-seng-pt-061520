@@ -12,7 +12,8 @@ class Triangle
     elsif @len1 + @len2 <= @len3 || @len2 + @len3 <= @len1 || @len1 + @len3 <= @len2 
       raise TriangleError
     else 
-      if 
+      if @len1==@len2 && @len2 == @len3 
+        return :equilateral 
     end 
   
   end 
