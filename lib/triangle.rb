@@ -5,5 +5,5 @@ class Triangle
     @len3 = len3 
   end 
   def kind 
-    
+  end 
 end
